@@ -1,0 +1,9 @@
+#trim and trim left
+#A = "**h*e*l*lo*"
+#result = A.strip('*')
+#print(result)
+
+#trim right
+A = "**h*e*l*lo*"
+result = A.rstrip('*')
+print(result)
