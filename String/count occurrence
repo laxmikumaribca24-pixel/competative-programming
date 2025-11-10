@@ -1,0 +1,6 @@
+A = "abobc"
+
+count = A.count("bob")
+print(count)
+# output: 1
+# the substring "bob" occurs once in the string "abobc"
