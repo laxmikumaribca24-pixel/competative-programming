@@ -1,0 +1,3 @@
+A = "Everyone loves data science"
+result = " ".join(A.split()[::-1])
+print(result)
