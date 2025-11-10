@@ -1,0 +1,10 @@
+A = "aabbcc"
+B = 98   # ASCII code
+
+ch = chr(B)   # convert ASCII code to character
+
+if ch in A:
+    print(A.index(ch))   # print the index of first occurrence
+else:
+    print(-1)            # if not found, print -1
+
