@@ -1,0 +1,11 @@
+def palidrome(i):
+    if len(i) <= 1:
+        return True
+    if i[0] != i[-1]:
+        return False
+    return palidrome(i[1:-1])
+word = "madam"
+if palidrome(word):
+    print(word, "is palidrome")
+else:
+    print(word, "is not palidrome")
