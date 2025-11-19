@@ -1,0 +1,12 @@
+def print_n_to_one(n):
+    # base case
+    if n <= 0:
+        return
+    # print current number
+    print(n, end=' ')
+    # recursive call with n-1
+    print_n_to_one(n - 1)
+
+# Example usage
+n = int(input("Enter N: "))
+print_n_to_one(n)
